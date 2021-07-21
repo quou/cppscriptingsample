@@ -25,7 +25,7 @@ namespace engine {
 	ENGINE_API void do_the_scripts(const std::string& dll_name, const std::string& class_name);
 	ENGINE_API void some_useful_function();
 
-	ENGINE_API class ScriptBase {
+	class ENGINE_API ScriptBase {
 	public:
 		virtual void on_update(double timestep) {}
 	};

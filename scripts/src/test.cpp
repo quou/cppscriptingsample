@@ -4,7 +4,7 @@ class ENGINE_API SomeScript : public engine::ScriptBase {
 private:
 	float thing;
 public:
-	static engine::ScriptBase* ENGINE_CALL get_instance() {
+	 static engine::ScriptBase* ENGINE_CALL get_instance() {
 		return new SomeScript();
 	}
 
